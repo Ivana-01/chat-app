@@ -32,7 +32,7 @@ const Login = () => {
           localStorage.setItem('id', data.user._id);
           console.log('Data received from backend:', data);
           if(data) {
-            window.location.href = `/chat/${data.user._id}`;
+            window.location.href = `/chat`;
           }
           } catch (err) {
               console.log('Error submitting form:', err);
