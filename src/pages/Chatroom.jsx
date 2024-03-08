@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import Logout from '../components/Logout'
 import ChatBox from '../components/ChatBox'
-import '../styles/Chat.css'
+import '../styles/Chatroom.css'
 
 const Chat = () => {
     const [visibility, setVisibility] = useState(false)
