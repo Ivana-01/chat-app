@@ -7,7 +7,6 @@ const Chat = () => {
     const [visibility, setVisibility] = useState(false)
     const [conversations, setConversations] = useState([])
     const [selectedConversation, setSelectedConversation] = useState(null)
-    const [input, setInput] = useState("")
     // Function to handle the display of conversations
     useEffect(() => {
         // Code to fetch all conversations
