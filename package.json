@@ -1,5 +1,6 @@
 {
-  "name": "frontend",
+  "name": "chat-app",
+  "homepage": "https://Ivana-01.github.io/chat-app",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
