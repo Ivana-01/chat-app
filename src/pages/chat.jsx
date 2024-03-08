@@ -14,7 +14,7 @@ const Chat = () => {
         const getConversations = async () => {
             try{
                 console.log(localStorage.getItem('token'))
-                const res = await fetch('http://localhost:5000/api/users', {
+                const res = await fetch('https://chat-app-api-id8w.onrender.com/api/users', {
                 method: 'GET',
                 headers: {
                     'Content-Type': 'application/json',

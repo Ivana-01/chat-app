@@ -16,7 +16,7 @@ const Login = () => {
         } else {
         // Send username and password to backend
         try{
-            const res = await fetch('http://localhost:5000/api/auth/login', {
+            const res = await fetch('https://chat-app-api-id8w.onrender.com/api/auth/login', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json'

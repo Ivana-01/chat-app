@@ -4,7 +4,7 @@ import logout from '../img/logout.png'
 const Logout = () => {
     const handleLogout = async (e) => {
         try{
-            const res = await fetch('http://localhost:5000/api/auth/logout', {
+            const res = await fetch('https://chat-app-api-id8w.onrender.com/api/auth/logout', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json'
